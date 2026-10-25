@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>My Profolio Richard Spires</title>
+</head>
+<body>
+   <header>
+      <nav>
+        <a href="#home" id="logo"><img src="./img/logo.jpg" alt="logo" width="50px" height="50px"> Richard Spires</a> 
+        <ul>
+            <li><a href="#home">Homes</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+
+        <section id="home">
+            <div id="hero-inner">
+                <div>
+                    <h1>
+                        HI, Im Richard Spires
+                    </h1>
+                    <h2>
+                        World Creator
+                    </h2>
+                    <p>
+                         I dream to create worlds and bring them to life. I dont just create my worlds, I want to help you to create your own world. I want to to bring what you have in mind to life.
+                    </p>
+                    <a href="#projects" class="button">View My Projects</a>
+                    <a href="#contact" class="button button-light">Contact</a>
+                </div>
+                <img src="./img/me.jpg" alt="Portrait of Richard Spires">
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Im coder who like art. I love artist like Davanchi, Pollock, and Waterhouse. But I also like both side of art dark and light. For the light side of art like Hayao Miyazaki and Eiichiro Oda. And for dark artist Tim Burton and Tokuro Fujiwara.</p>
+            <p><strong>Education:</strong> HTMl & CSS certified, FreeCodeCamp, 2025</p>
+            <p><strong>Interests:</strong> I love to play card games to pass the time, I love create like to draw and wood working.</p>
+            <p><strong>Career Goal:</strong> To create worlds. To help build your dreams</p>
+            <p><strong>What Drive You:</strong> Art help bring poeple together like music. So I want create world like the greats, to inspired next genration of creator.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Html and CSS</li>
+                <li>Art and desinged</li>
+                <li>Javascript</li>
+                <li>Leadership and Team Management</li>
+            </ul>
+        </section>
+
+        <section id="experience">
+            <h2>Experience and Education</h2>
+            <div class="card">
+                <h3>Role, Course, or Learning Project</h3>
+                <p class="dates">Quickstart and CSN | 9/21/26 to 12/26</p>
+                <p>
+                    I create websites, counters, fairwheele, tic-tac-toe board, and other stuff.
+                </p>
+            </div>
+            <div class="card">
+                <h3>Program</h3>
+                <p class="dates">CSN | 2026</p>
+                 <p>i learn differnt html, css, javascript, and frame work</p>
+            </div>
+        </section>
+
+        <section id="projects">
+              <h2>Project</h2>
+            <div id="project-list">
+              
+                <div class="card">
+                    <img src="./img/project gym website.jpeg" alt="project screenshot">
+                    <h3>Gym web project</h3>
+                    <p>Just a simple gym webisite to show of my style a little.</p>
+                    <p class="dates">Tools used: HTML, CSS</p>
+                    <a href="https://richardspires.github.io/website-practice-module-7/" class="button">Live Demo</a>
+                    <a href="https://github.com/richardspires/website-practice-module-7.git" class="button light-button">Github Repository</a>
+                </div>
+
+                <div class="card">
+                    <img src="./img/Screenshot_24-10-2026_192959_127.0.0.1.jpeg" alt="PROJECT2 screenshot" height="50px">
+                    <h3>Couneter project</h3>
+                    <p>simple little counter</p>
+                    <p class="dates">Tools used: Javascript,HTML, CSS</p>
+                    <a href="https://richardspires.github.io/counter-funner/" class="button">Live Demo</a>
+                    <a href="https://github.com/richardspires/counter-funner.git" class="button light-button">Github Repository</a>
+                </div>
+                    
+                <div class="card">
+                    <img src="./img/Screenshot_24-10-2026_20930_127.0.0.1.jpeg" alt="project3 screenshot">
+                    <h3>Farris wheel project</h3>
+                    <p>Farris Wheel with html and css animtion</p>
+                    <p class="dates">Tools used: HTML, CSS</p>
+                    <a href="https://richardspires.github.io/Farris-wheel-fun/" class="button">Live Demo</a>
+                    <a href="https://github.com/richardspires/Farris-wheel-fun.git" class="button light-button">Github Repository</a>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contacts</h2>
+            <p>Email: <a href="mailto:richardspires51@gmail.com">Richardspires51@gmail.com</a></p>
+            <p>LinkedIn: <a href=""></a></p>
+            <p>Github: <a href="https://github.com/richardspires" class="button" target="_blank" rel="noopener noreferrer">GitHub</a>
+               LinkedIn: <a href="https://www.linkedin.com/in/richard-spires-8881093a4/" class="button" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </p>
+        
+            <form action="#" method="post">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="name" required>
+
+                <label for="subject">Subject</label>
+                <input type="text" name="subject" id="subject" required>
+
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="5" required></textarea>
+
+                <button type="submit">Send Request</button>
+                
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p id="footer-name">Richard Spires</p>
+        <P>
+            <a href="#home">Homes</a> |
+            <a href="#about">About</a> |
+            <a href="#projects">Project</a> |
+            <a href="#contact">Contact</a>
+        </P>
+        <p>
+            <a href="https://github.com/richardspires" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/richard-spires-8881093a4/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </p>
+        <p>
+            <p>Thank you for visting. Let's build something worth exploring.</p>
+            <p>&copy; 2026 Richard Spires</p>
+        </p>
+    </footer>
+</body>
+</html>
